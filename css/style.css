@@ -1,0 +1,96 @@
+/* global styles */
+
+a , a:hover
+{
+	color:#f9f6f6 !important;
+	text-decoration: none !important;
+}
+h3
+{
+	font-size: 18px !important;
+	padding-bottom: 20px !important;
+}
+h4
+{
+	font-size: 15px !important;
+}
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+
+li
+{
+	list-style: none;
+}
+p
+{
+		line-height: 30px;
+}
+.btn-lg
+{
+	margin-bottom:30px !important;
+}
+
+/*   row - column  */
+
+.col-centered
+{
+	text-align: center;
+}
+.col-leftalign
+{
+	text-align: center;
+}
+
+.tech-skills, .education
+{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+/* card */
+
+p.card-text
+{
+	font-size: 12px;
+	line-height: 20px;
+}
+h4.card-title
+{
+	text-align: center;
+}
+
+/* Section */
+
+section#profile
+{
+	padding-bottom: 30px;
+}
+section#profile-description
+{
+	padding:0 40px 0 !important;
+}
+/* Footer */
+
+footer
+{
+		margin: 30px 0 0 0;
+		color: white !important;
+}
+header
+{
+		color: white !important;
+}
+/* media queries */
+
+@media screen and (max-width : 991px) 
+{
+	#profile-description .container .col-sm-9{
+		background:rgba(255,   255,   255, 0.68);
+		padding: 20px;
+	}
+}
+	
+
